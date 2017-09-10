@@ -1,0 +1,226 @@
+/*单次闪耀字 红*/
+.a_shining_red a , .search_under_keyword a , .shopping_channels a , .top_section2_partLeft a ,
+.top_section2_partRight_part1>p a , .top_section2_partRight_part2 a , .top_section2_partRight_part3 a , 
+.jd_s_article2_part3>section>ul>li a , .f_section_article1 a , .f-section_article2 p:nth-of-type(1) a{
+	transition:color .2s ease 0s;
+}
+.a_shining_red a:hover , .search_under_keyword a:hover , .shopping_channels a:hover ,
+.top_section2_partLeft a:hover , .top_section2_partRight_part1>p a:hover , .top_section2_partRight_part2 a:hover ,
+.top_section2_partRight_part3 li:hover a , .jd_s_article2_part3>section>ul>li:hover a , .f_section_article1 a:hover ,
+.f-section_article2 p:nth-of-type(1) a:hover{
+	color:#c81623 !important;
+}
+
+/*文字渐变闪烁 红*/
+.jd_time_limit>section>div>ul>li:hover>a>p , .jd_s_article2_part3_bottom>div>div>a:hover>p , .s110_ul>li:hover p{
+	animation: shining_red 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_red{
+	0%{
+	    color: #999;
+	}
+	25%{
+		color:#f10215;
+	}
+	50%{
+		color:#c81623;
+	}
+	75%{
+		color:#f10215;
+	}
+	100%{
+		color:#c81623;
+	}
+}
+/*文字渐变闪烁 绿*/
+.jd_s_article2_part1>section>div>ul>li>a:hover p{
+	animation: shining_green 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_green{
+	25%{
+		color:rgb(0,110,0);
+	}
+	50%{
+		color:#4998a1;
+	}
+	75%{
+		color:rgb(0,110,0);
+	}
+	100%{
+		color:#4998a1;
+	}
+}
+/*文字渐变闪烁 #974676*/
+.jd_s_article5_small2_part_section1_part1>div>div>a:hover .jd_s_article5_small2_part_section1_font1{
+	animation: shining_974676 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_974676{
+	25%{
+		color:#CC0066;
+	}
+	50%{
+		color:#974676;
+	}
+	75%{
+		color:#CC0066;
+	}
+	100%{
+		color:#974676;
+	}
+}
+/*文字渐变闪烁 #cd375e*/
+.jd_s_article5_small2_part_section1_part1>div>div>a:hover .jd_s_article5_small2_part_section1_font2{
+	animation: shining_cd375e 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_cd375e{
+	25%{
+		color:#990066;
+	}
+	50%{
+		color:#cd375e;
+	}
+	75%{
+		color:#990066;
+	}
+	100%{
+		color:#cd375e;
+	}
+}
+/*文字渐变闪烁 #78538e*/
+.jd_s_article5_small2_part_section1_part1>div>div>a:hover .jd_s_article5_small2_part_section1_font3{
+	animation: shining_78538e 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_78538e{
+	25%{
+		color:#CC00CC;
+	}
+	50%{
+		color:#78538e;
+	}
+	75%{
+		color:#CC00CC;
+	}
+	100%{
+		color:#78538e;
+	}
+}
+/*文字渐变闪烁 #5e6c90*/
+.jd_s_article5_small2_part_section1_part1>div>div>a:hover .jd_s_article5_small2_part_section1_font4{
+	animation: shining_5e6c90 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_5e6c90{
+	25%{
+		color:#0099CC;
+	}
+	50%{
+		color:#5e6c90;
+	}
+	75%{
+		color:#0099CC;
+	}
+	100%{
+		color:#5e6c90;
+	}
+}
+/*文字渐变闪烁 #488bad*/
+.jd_s_article6_big1_part1>div>div>a:hover .jd_s_article6_big1_left_part1_fonta{
+	animation: shining_488bad 2s ease 0s 1 normal forwards;
+}
+@keyframes shining_488bad{
+	25%{
+		color:#3399CC;
+	}
+	50%{
+		color:#488bad;
+	}
+	75%{
+		color:#3399CC;
+	}
+	100%{
+		color:#488bad;
+	}
+}
+/*top_section2_partLeft ；大广告轮播图侧边菜单白底效果*/
+.top_section2_partLeft li{
+	transition: background .2s ease 0s;
+}
+.top_section2_partLeft li:hover{
+	background:rgba(255,255,255,.5);
+}
+
+/*注册登录按钮样式*/
+.top_section2_partRight_part1>div>a{
+	transition: all .3s ease 0s;
+}
+.top_section2_partRight_part1>div>a:hover{
+	background:#e01222;
+	color:white;
+}
+
+/*品质家电嗨购不停*/
+.jd_s_article1_part2_cover , .jd_s_article1_part3_cover{
+	transition: background .5s ease 0s;
+}
+.jd_s_article1_part2_cover:hover , .jd_s_article1_part3_cover:hover{
+	background:rgba(248,69,66,.2);
+}
+
+/*图片左移动5px*/
+.jd_s_article2_part1>section>div>ul>li>a>img , .jd_s_article5_small2_part_section1_part1>div>div>a img , .jd_s_article5_small2_part_section1_part1>a img ,
+.jd_s_article6_big1_part1>div>div a img ,.jd_s_article7_3small_notag_section_part1>div>a img{
+	transition:transform .5s ease 0s;
+}
+.jd_s_article2_part1>section>div>ul>li>a>img:hover , .jd_s_article5_small2_part_section1_part1>div>div>a:hover img , .jd_s_article6_big1_part1>div>div a:hover img ,
+.jd_s_article7_3small_notag_section_part1>div>a:hover img{
+	transform:translate(-5px , 0);
+}
+
+/*图片左移动10px*/
+.jd_s_article4>ul>a>li>img , .jd_s_article5_small2_part_section1_part2>a img , .jd_s_article6_big1_part1>a img , .jd_s_article6_big1_part2 a img ,
+.jd_s_article7_3small_notag_section_part1>a img , .jd_s_article7_3small_notag_section_part2>a img{
+	transition:all .4s ease 0s;
+}
+.jd_s_article4>ul>a>li:hover img , .jd_s_article5_small2_part_section1_part1>a:hover img , .jd_s_article5_small2_part_section1_part2>a:hover img ,
+.jd_s_article6_big1_part1>a:hover img , .jd_s_article6_big1_part2 a:hover img , .jd_s_article7_3small_notag_section_part1>a:hover img ,
+.jd_s_article7_3small_notag_section_part2>a:hover img{
+	transform:translate(-10px , 0);
+}
+	/*文字泛光*/
+	.jd_s_article4>ul>a>li h4 , .jd_s_article4>ul>a>li p , .s99-1>div>ul li p{
+		transition:all .4s ease 0s;
+	}
+	.jd_s_article4>ul>a>li:hover h4 , .jd_s_article4>ul>a>li:hover p , .s99-1>div>ul li:hover p{
+		text-shadow:1px 1px 6px rgba(255,255,255,.9) , -1px -1px 6px rgba(255,255,255,.9);
+	}
+    /*除首个li（京东直播）不移动*/
+.jd_s_article4>ul>a:nth-of-type(1)>li:hover img{
+	transform:translate(0 , 0);
+}
+
+/*图片向右移动15px*/
+.jd_s_article3_coupon_right>a img{
+	transition:transform .4s ease 0s;
+}
+.jd_s_article3_coupon_right>a:hover img{
+	transform:translate(15px,0);
+}
+
+/*主题展框标签栏泛光样式*/
+.jd_s_article5_small2_part_header_ul a , .jd_s_article6_big1_header_ul a , .jd_s_article7_3small_notag_ul a{
+	transition:all .3s ease 0s;
+}
+.jd_s_article5_small2_part_header_ul a:hover , .jd_s_article6_big1_header_ul a:hover , .jd_s_article7_3small_notag_ul a:hover{
+	border:1px solid white;
+	box-shadow:1px 1px 5px rgba(255,255,255,.8) , -1px -1px 5px rgba(255,255,255,.8);
+	transform:translate(-2px , -2px);
+}
+
+/*还没逛够 向上移动加左右阴影*/
+.s110_ul>li{
+	transition:all .5s ease 0s;
+}
+.s110_ul>li:hover{
+	transform:translate(0 , 5px);
+	border:2px solid rgba(240,190,190,1);
+	border-radius:12px;
+}
